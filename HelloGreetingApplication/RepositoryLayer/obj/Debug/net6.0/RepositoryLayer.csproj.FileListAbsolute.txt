@@ -21,3 +21,7 @@ F:\Final Capgemini\HelloGreetingApplication\RepositoryLayer\obj\Debug\net6.0\Rep
 F:\Final Capgemini\HelloGreetingApplication\RepositoryLayer\obj\Debug\net6.0\refint\RepositoryLayer.dll
 F:\Final Capgemini\HelloGreetingApplication\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.pdb
 F:\Final Capgemini\HelloGreetingApplication\RepositoryLayer\obj\Debug\net6.0\ref\RepositoryLayer.dll
+F:\Final Capgemini\HelloGreetingApplication\RepositoryLayer\bin\Debug\net6.0\ModelLayer.dll
+F:\Final Capgemini\HelloGreetingApplication\RepositoryLayer\bin\Debug\net6.0\ModelLayer.pdb
+F:\Final Capgemini\HelloGreetingApplication\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.csproj.AssemblyReference.cache
+F:\Final Capgemini\HelloGreetingApplication\RepositoryLayer\obj\Debug\net6.0\Reposito.A0A61804.Up2Date

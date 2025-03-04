@@ -44,6 +44,13 @@ namespace HelloGreetingApplication.Controllers
             return Ok(responseModel);
         }
 
+        [HttpPost]
+        [Route("UserAttributeMesssage")]
+        public IActionResult UserAttributeMsg(UserModel userModel) {
+            var message = greetingBL.UserAttributeMsgBL(userModel);
+            return Ok(message);
+        }
+
         /// <summary>
         /// Post method to get the greeting message
         /// </summary>

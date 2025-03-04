@@ -250,7 +250,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "F:\\Final Capgemini\\HelloGreetingApplication\\ModelLayer\\ModelLayer.csproj": {
+                "projectPath": "F:\\Final Capgemini\\HelloGreetingApplication\\ModelLayer\\ModelLayer.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

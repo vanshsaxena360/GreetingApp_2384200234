@@ -1,4 +1,5 @@
 ﻿using BusinessLayer.Interface;
+using ModelLayer.Model;
 using RepositoryLayer.Interface;
 using RepositoryLayer.Service;
 using System;
@@ -20,6 +21,20 @@ namespace BusinessLayer.Service
         public string printHelloWorldBL() {
             var message = greetingRL.PrintHelloWorldRL();
             return message;
+        }
+        public string UserAttributeMsgBL(UserModel userModel) {
+            var message = greetingRL.UserAttributeMsgRL(userModel);
+            if (message == null)
+            {
+                return "Hello World!";
+            }
+            else if (message == userModel.FirstName)
+            {
+                return userModel.FirstName + " Hello";
+            }
+            else {
+                return "Hello " + userModel.LastName;
+            }
         }
     }
 }
