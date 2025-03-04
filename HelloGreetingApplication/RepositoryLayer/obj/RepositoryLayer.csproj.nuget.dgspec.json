@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Self\\HelloGreetingApplication\\RepositoryLayer\\RepositoryLayer.csproj": {}
+    "F:\\Final Capgemini\\HelloGreetingApplication\\RepositoryLayer\\RepositoryLayer.csproj": {}
   },
   "projects": {
-    "F:\\Self\\HelloGreetingApplication\\RepositoryLayer\\RepositoryLayer.csproj": {
+    "F:\\Final Capgemini\\HelloGreetingApplication\\RepositoryLayer\\RepositoryLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Self\\HelloGreetingApplication\\RepositoryLayer\\RepositoryLayer.csproj",
+        "projectUniqueName": "F:\\Final Capgemini\\HelloGreetingApplication\\RepositoryLayer\\RepositoryLayer.csproj",
         "projectName": "RepositoryLayer",
-        "projectPath": "F:\\Self\\HelloGreetingApplication\\RepositoryLayer\\RepositoryLayer.csproj",
+        "projectPath": "F:\\Final Capgemini\\HelloGreetingApplication\\RepositoryLayer\\RepositoryLayer.csproj",
         "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "F:\\Self\\HelloGreetingApplication\\RepositoryLayer\\obj\\",
+        "outputPath": "F:\\Final Capgemini\\HelloGreetingApplication\\RepositoryLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

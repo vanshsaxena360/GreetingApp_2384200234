@@ -1,3 +1,4 @@
+using BusinessLayer.Interface;
 using Microsoft.AspNetCore.Mvc;
 using ModelLayer.Model;
 using NLog;
@@ -13,8 +14,11 @@ namespace HelloGreetingApplication.Controllers
     public class HelloGreetingController : ControllerBase
     {
         private readonly ILogger<HelloGreetingController> logger;
-        public HelloGreetingController(ILogger<HelloGreetingController> logger)
+        private readonly IGreetingBL greetingBL;
+
+        public HelloGreetingController(ILogger<HelloGreetingController> logger, IGreetingBL greetingBL)
         {
+            this.greetingBL = greetingBL;
             this.logger = logger;
         }
         /// <summary>
@@ -27,6 +31,16 @@ namespace HelloGreetingApplication.Controllers
             responseModel.Message = "Hello API Endpoint Hit";
             responseModel.Success = true;
             responseModel.Data = "Hello, World!";
+            return Ok(responseModel);
+        }
+        [HttpGet]
+        [Route("GreetingMessage")]
+        public IActionResult Get1() {
+            ResponseModel<string> responseModel = new ResponseModel<string>();
+            var result = greetingBL.printHelloWorldBL();
+            responseModel.Message = "Success";
+            responseModel.Success = true;
+            responseModel.Data = result;
             return Ok(responseModel);
         }
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Self\\HelloGreetingApplication\\ModelLayer\\ModelLayer.csproj": {}
+    "F:\\Final Capgemini\\HelloGreetingApplication\\ModelLayer\\ModelLayer.csproj": {}
   },
   "projects": {
-    "F:\\Self\\HelloGreetingApplication\\ModelLayer\\ModelLayer.csproj": {
+    "F:\\Final Capgemini\\HelloGreetingApplication\\ModelLayer\\ModelLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Self\\HelloGreetingApplication\\ModelLayer\\ModelLayer.csproj",
+        "projectUniqueName": "F:\\Final Capgemini\\HelloGreetingApplication\\ModelLayer\\ModelLayer.csproj",
         "projectName": "ModelLayer",
-        "projectPath": "F:\\Self\\HelloGreetingApplication\\ModelLayer\\ModelLayer.csproj",
+        "projectPath": "F:\\Final Capgemini\\HelloGreetingApplication\\ModelLayer\\ModelLayer.csproj",
         "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "F:\\Self\\HelloGreetingApplication\\ModelLayer\\obj\\",
+        "outputPath": "F:\\Final Capgemini\\HelloGreetingApplication\\ModelLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

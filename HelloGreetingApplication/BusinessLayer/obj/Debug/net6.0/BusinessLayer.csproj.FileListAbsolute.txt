@@ -15,3 +15,21 @@ F:\Self\HelloGreetingApplication\BusinessLayer\obj\Debug\net6.0\BusinessLayer.dl
 F:\Self\HelloGreetingApplication\BusinessLayer\obj\Debug\net6.0\refint\BusinessLayer.dll
 F:\Self\HelloGreetingApplication\BusinessLayer\obj\Debug\net6.0\BusinessLayer.pdb
 F:\Self\HelloGreetingApplication\BusinessLayer\obj\Debug\net6.0\ref\BusinessLayer.dll
+F:\Final Capgemini\HelloGreetingApplication\BusinessLayer\bin\Debug\net6.0\BusinessLayer.deps.json
+F:\Final Capgemini\HelloGreetingApplication\BusinessLayer\bin\Debug\net6.0\BusinessLayer.dll
+F:\Final Capgemini\HelloGreetingApplication\BusinessLayer\bin\Debug\net6.0\BusinessLayer.pdb
+F:\Final Capgemini\HelloGreetingApplication\BusinessLayer\bin\Debug\net6.0\ModelLayer.dll
+F:\Final Capgemini\HelloGreetingApplication\BusinessLayer\bin\Debug\net6.0\RepositoryLayer.dll
+F:\Final Capgemini\HelloGreetingApplication\BusinessLayer\bin\Debug\net6.0\ModelLayer.pdb
+F:\Final Capgemini\HelloGreetingApplication\BusinessLayer\bin\Debug\net6.0\RepositoryLayer.pdb
+F:\Final Capgemini\HelloGreetingApplication\BusinessLayer\obj\Debug\net6.0\BusinessLayer.csproj.AssemblyReference.cache
+F:\Final Capgemini\HelloGreetingApplication\BusinessLayer\obj\Debug\net6.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+F:\Final Capgemini\HelloGreetingApplication\BusinessLayer\obj\Debug\net6.0\BusinessLayer.AssemblyInfoInputs.cache
+F:\Final Capgemini\HelloGreetingApplication\BusinessLayer\obj\Debug\net6.0\BusinessLayer.AssemblyInfo.cs
+F:\Final Capgemini\HelloGreetingApplication\BusinessLayer\obj\Debug\net6.0\BusinessLayer.csproj.CoreCompileInputs.cache
+F:\Final Capgemini\HelloGreetingApplication\BusinessLayer\obj\Debug\net6.0\BusinessLayer.sourcelink.json
+F:\Final Capgemini\HelloGreetingApplication\BusinessLayer\obj\Debug\net6.0\Business.EA331CBA.Up2Date
+F:\Final Capgemini\HelloGreetingApplication\BusinessLayer\obj\Debug\net6.0\BusinessLayer.dll
+F:\Final Capgemini\HelloGreetingApplication\BusinessLayer\obj\Debug\net6.0\refint\BusinessLayer.dll
+F:\Final Capgemini\HelloGreetingApplication\BusinessLayer\obj\Debug\net6.0\BusinessLayer.pdb
+F:\Final Capgemini\HelloGreetingApplication\BusinessLayer\obj\Debug\net6.0\ref\BusinessLayer.dll

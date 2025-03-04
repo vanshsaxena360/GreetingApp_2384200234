@@ -9,3 +9,15 @@ F:\Self\HelloGreetingApplication\ModelLayer\obj\Debug\net6.0\ModelLayer.dll
 F:\Self\HelloGreetingApplication\ModelLayer\obj\Debug\net6.0\refint\ModelLayer.dll
 F:\Self\HelloGreetingApplication\ModelLayer\obj\Debug\net6.0\ModelLayer.pdb
 F:\Self\HelloGreetingApplication\ModelLayer\obj\Debug\net6.0\ref\ModelLayer.dll
+F:\Final Capgemini\HelloGreetingApplication\ModelLayer\bin\Debug\net6.0\ModelLayer.deps.json
+F:\Final Capgemini\HelloGreetingApplication\ModelLayer\bin\Debug\net6.0\ModelLayer.dll
+F:\Final Capgemini\HelloGreetingApplication\ModelLayer\bin\Debug\net6.0\ModelLayer.pdb
+F:\Final Capgemini\HelloGreetingApplication\ModelLayer\obj\Debug\net6.0\ModelLayer.GeneratedMSBuildEditorConfig.editorconfig
+F:\Final Capgemini\HelloGreetingApplication\ModelLayer\obj\Debug\net6.0\ModelLayer.AssemblyInfoInputs.cache
+F:\Final Capgemini\HelloGreetingApplication\ModelLayer\obj\Debug\net6.0\ModelLayer.AssemblyInfo.cs
+F:\Final Capgemini\HelloGreetingApplication\ModelLayer\obj\Debug\net6.0\ModelLayer.csproj.CoreCompileInputs.cache
+F:\Final Capgemini\HelloGreetingApplication\ModelLayer\obj\Debug\net6.0\ModelLayer.sourcelink.json
+F:\Final Capgemini\HelloGreetingApplication\ModelLayer\obj\Debug\net6.0\ModelLayer.dll
+F:\Final Capgemini\HelloGreetingApplication\ModelLayer\obj\Debug\net6.0\refint\ModelLayer.dll
+F:\Final Capgemini\HelloGreetingApplication\ModelLayer\obj\Debug\net6.0\ModelLayer.pdb
+F:\Final Capgemini\HelloGreetingApplication\ModelLayer\obj\Debug\net6.0\ref\ModelLayer.dll

@@ -1017,11 +1017,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Self\\HelloGreetingApplication\\HelloGreetingApplication\\HelloGreetingApplication.csproj",
+      "projectUniqueName": "F:\\Final Capgemini\\HelloGreetingApplication\\HelloGreetingApplication\\HelloGreetingApplication.csproj",
       "projectName": "HelloGreetingApplication",
-      "projectPath": "F:\\Self\\HelloGreetingApplication\\HelloGreetingApplication\\HelloGreetingApplication.csproj",
+      "projectPath": "F:\\Final Capgemini\\HelloGreetingApplication\\HelloGreetingApplication\\HelloGreetingApplication.csproj",
       "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-      "outputPath": "F:\\Self\\HelloGreetingApplication\\HelloGreetingApplication\\obj\\",
+      "outputPath": "F:\\Final Capgemini\\HelloGreetingApplication\\HelloGreetingApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1042,8 +1042,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "F:\\Self\\HelloGreetingApplication\\BusinessLayer\\BusinessLayer.csproj": {
-              "projectPath": "F:\\Self\\HelloGreetingApplication\\BusinessLayer\\BusinessLayer.csproj"
+            "F:\\Final Capgemini\\HelloGreetingApplication\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "F:\\Final Capgemini\\HelloGreetingApplication\\BusinessLayer\\BusinessLayer.csproj"
             }
           }
         }
