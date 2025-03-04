@@ -1,0 +1,17 @@
+F:\Self\HelloGreetingApplication\BusinessLayer\bin\Debug\net6.0\BusinessLayer.deps.json
+F:\Self\HelloGreetingApplication\BusinessLayer\bin\Debug\net6.0\BusinessLayer.dll
+F:\Self\HelloGreetingApplication\BusinessLayer\bin\Debug\net6.0\BusinessLayer.pdb
+F:\Self\HelloGreetingApplication\BusinessLayer\bin\Debug\net6.0\ModelLayer.dll
+F:\Self\HelloGreetingApplication\BusinessLayer\bin\Debug\net6.0\RepositoryLayer.dll
+F:\Self\HelloGreetingApplication\BusinessLayer\bin\Debug\net6.0\ModelLayer.pdb
+F:\Self\HelloGreetingApplication\BusinessLayer\bin\Debug\net6.0\RepositoryLayer.pdb
+F:\Self\HelloGreetingApplication\BusinessLayer\obj\Debug\net6.0\BusinessLayer.csproj.AssemblyReference.cache
+F:\Self\HelloGreetingApplication\BusinessLayer\obj\Debug\net6.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+F:\Self\HelloGreetingApplication\BusinessLayer\obj\Debug\net6.0\BusinessLayer.AssemblyInfoInputs.cache
+F:\Self\HelloGreetingApplication\BusinessLayer\obj\Debug\net6.0\BusinessLayer.AssemblyInfo.cs
+F:\Self\HelloGreetingApplication\BusinessLayer\obj\Debug\net6.0\BusinessLayer.csproj.CoreCompileInputs.cache
+F:\Self\HelloGreetingApplication\BusinessLayer\obj\Debug\net6.0\Business.EA331CBA.Up2Date
+F:\Self\HelloGreetingApplication\BusinessLayer\obj\Debug\net6.0\BusinessLayer.dll
+F:\Self\HelloGreetingApplication\BusinessLayer\obj\Debug\net6.0\refint\BusinessLayer.dll
+F:\Self\HelloGreetingApplication\BusinessLayer\obj\Debug\net6.0\BusinessLayer.pdb
+F:\Self\HelloGreetingApplication\BusinessLayer\obj\Debug\net6.0\ref\BusinessLayer.dll
