@@ -12,5 +12,7 @@ namespace RepositoryLayer.Interface
         public List<UserModel> userList { get; set; }
         public string PrintHelloWorldRL();
         public string UserAttributeMsgRL(UserModel userModel);
+
+        public bool MessageAddRL(GreetingModel greetingModel);
     }
 }

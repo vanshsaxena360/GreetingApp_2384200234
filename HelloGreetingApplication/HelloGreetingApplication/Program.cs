@@ -4,6 +4,9 @@ using RepositoryLayer.Interface;
 using RepositoryLayer.Service;
 using NLog;
 using NLog.Web;
+using Microsoft.EntityFrameworkCore;
+using System;
+using RepositoryLayer.Context;
 
 var logger = LoggerFactory.Create(builder =>
 {
@@ -23,6 +26,10 @@ try
     builder.Services.AddScoped<IGreetingRL, GreetingRL>();
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen();
+
+    var connectionString = builder.Configuration.GetConnectionString("SqlConnection");
+    builder.Services.AddDbContext<HelloGreetingContext>(options =>
+        options.UseSqlServer(connectionString));
 
 
     var app = builder.Build();

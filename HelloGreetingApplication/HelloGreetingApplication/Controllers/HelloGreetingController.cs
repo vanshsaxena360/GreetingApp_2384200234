@@ -133,5 +133,22 @@ namespace HelloGreetingApplication.Controllers
             }
 
         }
+
+        [HttpPost]
+        [Route("MessageAdd")]
+        public IActionResult AddMessage(GreetingModel greetingModel)
+        {
+            ResponseModel<string> responseModel = new ResponseModel<string>();
+            var result = greetingBL.AddMessageBL(greetingModel);
+            if (result)
+            {
+                responseModel.Success = true;
+                responseModel.Message = "Message added.";
+                responseModel.Data = greetingModel.GreetingMsg;
+                return Ok(responseModel);
+            }
+            return BadRequest(responseModel);
+        }
+
     }
 }

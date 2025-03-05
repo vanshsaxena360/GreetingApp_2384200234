@@ -25,3 +25,5 @@ F:\Final Capgemini\HelloGreetingApplication\RepositoryLayer\bin\Debug\net6.0\Mod
 F:\Final Capgemini\HelloGreetingApplication\RepositoryLayer\bin\Debug\net6.0\ModelLayer.pdb
 F:\Final Capgemini\HelloGreetingApplication\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.csproj.AssemblyReference.cache
 F:\Final Capgemini\HelloGreetingApplication\RepositoryLayer\obj\Debug\net6.0\Reposito.A0A61804.Up2Date
+F:\Final Capgemini\HelloGreetingApplication\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.runtimeconfig.json
+F:\Final Capgemini\HelloGreetingApplication\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.genruntimeconfig.cache

@@ -36,5 +36,15 @@ namespace BusinessLayer.Service
                 return "Hello " + userModel.LastName;
             }
         }
+
+        public bool AddMessageBL(GreetingModel greetingModel)
+        {
+            var result = greetingRL.MessageAddRL(greetingModel);
+            if (result)
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }

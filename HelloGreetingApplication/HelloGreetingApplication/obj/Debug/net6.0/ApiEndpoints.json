@@ -115,6 +115,22 @@
   },
   {
     "ContainingType": "HelloGreetingApplication.Controllers.HelloGreetingController",
+    "Method": "AddMessage",
+    "RelativePath": "HelloGreeting/MessageAdd",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "greetingModel",
+        "Type": "ModelLayer.Model.GreetingModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloGreetingApplication.Controllers.HelloGreetingController",
     "Method": "UserAttributeMsg",
     "RelativePath": "HelloGreeting/UserAttributeMesssage",
     "HttpMethod": "POST",

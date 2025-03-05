@@ -11,5 +11,7 @@ namespace BusinessLayer.Interface
     {
         public string printHelloWorldBL();
         public string UserAttributeMsgBL(UserModel userModel);
+        
+        public bool AddMessageBL(GreetingModel greetingModel);
     }
 }
