@@ -1,4 +1,5 @@
 ﻿using ModelLayer.Model;
+using RepositoryLayer.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,5 +15,7 @@ namespace RepositoryLayer.Interface
         public string UserAttributeMsgRL(UserModel userModel);
 
         public bool MessageAddRL(GreetingModel greetingModel);
+
+        public GreetingEntity FindMessageRL(RequestMessageId requestMessageId);
     }
 }

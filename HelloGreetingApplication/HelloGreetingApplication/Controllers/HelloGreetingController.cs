@@ -134,6 +134,12 @@ namespace HelloGreetingApplication.Controllers
 
         }
 
+        /// <summary>
+        /// method for add message
+        /// </summary>
+        /// <param name="greetingModel"></param>
+        /// <returns></returns>
+
         [HttpPost]
         [Route("MessageAdd")]
         public IActionResult AddMessage(GreetingModel greetingModel)
@@ -148,6 +154,24 @@ namespace HelloGreetingApplication.Controllers
                 return Ok(responseModel);
             }
             return BadRequest(responseModel);
+        }
+
+
+        [HttpPost]
+        [Route("FindMessage")]
+        public IActionResult FindMessage(RequestMessageId requestMessageId)
+        {
+            ResponseModel<string?> response = new ResponseModel<string?>();
+
+            var result = greetingBL.FindMessageBL(requestMessageId);
+            if (result != null)
+            {
+                response.Success = true;
+                response.Message = "Message got.";
+                response.Data = result.GreetingMsg;
+                return Ok(response);
+            }
+            return BadRequest(response);
         }
 
     }

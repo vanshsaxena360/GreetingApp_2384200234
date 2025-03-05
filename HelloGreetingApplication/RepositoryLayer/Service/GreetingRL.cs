@@ -67,5 +67,11 @@ namespace RepositoryLayer.Service
             return true;
         }
 
+        public GreetingEntity FindMessageRL(RequestMessageId requestMessageId)
+        {
+            var result = helloGreetingContext.Greetings.FirstOrDefault(e => e.Id == requestMessageId.Id);
+            return result;
+        }
+
     }
 }

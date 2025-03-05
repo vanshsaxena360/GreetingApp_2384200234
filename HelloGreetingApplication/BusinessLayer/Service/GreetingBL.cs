@@ -46,5 +46,18 @@ namespace BusinessLayer.Service
             }
             return false;
         }
+
+        public GreetingModel FindMessageBL(RequestMessageId requestMessageId)
+        {
+            GreetingModel greetingModel = new GreetingModel();
+            var result = greetingRL.FindMessageRL(requestMessageId);
+            if (result != null)
+            {
+                greetingModel.GreetingMsg = result.GreetingMsg;
+                return greetingModel;
+            }
+            return greetingModel;
+        }
+
     }
 }

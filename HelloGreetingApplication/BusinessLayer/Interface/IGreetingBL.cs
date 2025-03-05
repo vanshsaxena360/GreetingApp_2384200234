@@ -13,5 +13,8 @@ namespace BusinessLayer.Interface
         public string UserAttributeMsgBL(UserModel userModel);
         
         public bool AddMessageBL(GreetingModel greetingModel);
+
+        public GreetingModel FindMessageBL(RequestMessageId requestMessageId);
     }
+
 }
