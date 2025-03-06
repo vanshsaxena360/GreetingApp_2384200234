@@ -202,12 +202,28 @@ namespace HelloGreetingApplication.Controllers
 
         [HttpPatch]
         [Route("EditMessage")]
-        public IActionResult GreetingMsgEdit(MsgResponseModel msgResponseModel) { 
+        public IActionResult GreetingMsgEdit(MsgResponseModel msgResponseModel) {
             ResponseModel<MsgResponseModel> responseModel = new ResponseModel<MsgResponseModel>();
             var output = greetingBL.GreetingMsgEditBL(msgResponseModel);
             if (output != null) {
                 responseModel.Success = true;
                 responseModel.Message = "Message Edited";
+                responseModel.Data = output;
+                return Ok(responseModel);
+            }
+            responseModel.Success = false;
+            responseModel.Message = "";
+            return BadRequest(responseModel);
+        }
+        [HttpDelete]
+        [Route("DeleteMessage")]
+        public IActionResult GreetingMsgDelete(DeleteMsgModel deleteMsgModel)
+        {
+            ResponseModel<DeleteMsgModel> responseModel = new ResponseModel<DeleteMsgModel>();
+            var output = greetingBL.GreetingMsgDeleteBL(deleteMsgModel);
+            if (output != null) { 
+                responseModel.Success=true;
+                responseModel.Message = "Message Deleted";
                 responseModel.Data = output;
                 return Ok(responseModel);
             }

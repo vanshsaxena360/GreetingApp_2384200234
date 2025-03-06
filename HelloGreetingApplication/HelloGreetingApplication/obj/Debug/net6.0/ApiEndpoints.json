@@ -105,6 +105,22 @@
   },
   {
     "ContainingType": "HelloGreetingApplication.Controllers.HelloGreetingController",
+    "Method": "GreetingMsgDelete",
+    "RelativePath": "HelloGreeting/DeleteMessage",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deleteMsgModel",
+        "Type": "ModelLayer.Model.DeleteMsgModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloGreetingApplication.Controllers.HelloGreetingController",
     "Method": "GreetingMsgEdit",
     "RelativePath": "HelloGreeting/EditMessage",
     "HttpMethod": "PATCH",

@@ -88,5 +88,17 @@ namespace RepositoryLayer.Service
             return msgResponseModel;
         }
 
+        public DeleteMsgModel GreetingMsgDeleteRL(DeleteMsgModel deleteMsgModel) {
+            
+            var output = helloGreetingContext.Greetings.FirstOrDefault(e => e.Id == deleteMsgModel.Id);
+            if (output != null) {
+               
+                helloGreetingContext.Greetings.Remove(output);
+                helloGreetingContext.SaveChanges();
+                return deleteMsgModel;
+            }
+            return deleteMsgModel;
+        }
+
     }
 }

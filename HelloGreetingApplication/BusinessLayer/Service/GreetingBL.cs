@@ -1,4 +1,5 @@
 ﻿using BusinessLayer.Interface;
+using Microsoft.EntityFrameworkCore;
 using ModelLayer.Model;
 using RepositoryLayer.Entity;
 using RepositoryLayer.Interface;
@@ -64,6 +65,12 @@ namespace BusinessLayer.Service
         }
         public MsgResponseModel GreetingMsgEditBL(MsgResponseModel msgResponseModel) {
             var output = greetingRL.GreetingMsgEditRL(msgResponseModel);
+            return output;
+        }
+
+        public DeleteMsgModel GreetingMsgDeleteBL(DeleteMsgModel deleteMsgModel) {
+            MsgResponseModel msgResponseModel = new MsgResponseModel();
+            var output = greetingRL.GreetingMsgDeleteRL(deleteMsgModel);
             return output;
         }
     }
