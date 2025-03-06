@@ -17,5 +17,6 @@ namespace BusinessLayer.Interface
 
         public GreetingModel FindMessageBL(RequestMessageId requestMessageId);
         public List<GreetingEntity> messageListBL();
+        public MsgResponseModel GreetingMsgEditBL(MsgResponseModel msgResponseModel);
     }
 }

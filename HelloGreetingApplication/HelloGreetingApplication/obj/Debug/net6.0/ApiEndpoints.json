@@ -105,6 +105,22 @@
   },
   {
     "ContainingType": "HelloGreetingApplication.Controllers.HelloGreetingController",
+    "Method": "GreetingMsgEdit",
+    "RelativePath": "HelloGreeting/EditMessage",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "msgResponseModel",
+        "Type": "ModelLayer.Model.MsgResponseModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloGreetingApplication.Controllers.HelloGreetingController",
     "Method": "FindMessage",
     "RelativePath": "HelloGreeting/FindMessage",
     "HttpMethod": "POST",
@@ -122,7 +138,7 @@
   {
     "ContainingType": "HelloGreetingApplication.Controllers.HelloGreetingController",
     "Method": "ListMessage",
-    "RelativePath": "HelloGreeting/GetLisMessage",
+    "RelativePath": "HelloGreeting/GetListMessage",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

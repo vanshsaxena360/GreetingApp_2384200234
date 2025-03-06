@@ -76,5 +76,17 @@ namespace RepositoryLayer.Service
         public List<GreetingEntity> messageListRL() {
             return helloGreetingContext.Greetings.ToList();
         }
+
+        public MsgResponseModel GreetingMsgEditRL(MsgResponseModel msgResponseModel) {
+            var output  = helloGreetingContext.Greetings.FirstOrDefault(e=>e.Id == msgResponseModel.Id);
+            if (output != null)
+            {
+                output.GreetingMsg = msgResponseModel.Message;
+                helloGreetingContext.SaveChanges() ;
+                return msgResponseModel;
+            }
+            return msgResponseModel;
+        }
+
     }
 }

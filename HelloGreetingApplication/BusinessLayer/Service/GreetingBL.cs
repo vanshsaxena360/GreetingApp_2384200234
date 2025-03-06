@@ -62,6 +62,9 @@ namespace BusinessLayer.Service
         public List<GreetingEntity> messageListBL() {
             return greetingRL.messageListRL();
         }
-
+        public MsgResponseModel GreetingMsgEditBL(MsgResponseModel msgResponseModel) {
+            var output = greetingRL.GreetingMsgEditRL(msgResponseModel);
+            return output;
+        }
     }
 }

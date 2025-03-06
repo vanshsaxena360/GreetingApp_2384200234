@@ -199,5 +199,21 @@ namespace HelloGreetingApplication.Controllers
             responseModel.Message = "";
             return BadRequest(responseModel);
         }
+
+        [HttpPatch]
+        [Route("EditMessage")]
+        public IActionResult GreetingMsgEdit(MsgResponseModel msgResponseModel) { 
+            ResponseModel<MsgResponseModel> responseModel = new ResponseModel<MsgResponseModel>();
+            var output = greetingBL.GreetingMsgEditBL(msgResponseModel);
+            if (output != null) {
+                responseModel.Success = true;
+                responseModel.Message = "Message Edited";
+                responseModel.Data = output;
+                return Ok(responseModel);
+            }
+            responseModel.Success = false;
+            responseModel.Message = "";
+            return BadRequest(responseModel);
+        }
     }
 }
