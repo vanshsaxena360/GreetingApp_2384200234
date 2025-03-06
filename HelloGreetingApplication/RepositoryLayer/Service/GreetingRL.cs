@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using ModelLayer.Model;
 using RepositoryLayer.Entity;
 using RepositoryLayer.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace RepositoryLayer.Service
 {
@@ -72,6 +73,8 @@ namespace RepositoryLayer.Service
             var result = helloGreetingContext.Greetings.FirstOrDefault(e => e.Id == requestMessageId.Id);
             return result;
         }
-
+        public List<GreetingEntity> messageListRL() {
+            return helloGreetingContext.Greetings.ToList();
+        }
     }
 }

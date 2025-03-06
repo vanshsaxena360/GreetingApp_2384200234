@@ -1,5 +1,6 @@
 ﻿using BusinessLayer.Interface;
 using ModelLayer.Model;
+using RepositoryLayer.Entity;
 using RepositoryLayer.Interface;
 using RepositoryLayer.Service;
 using System;
@@ -57,6 +58,9 @@ namespace BusinessLayer.Service
                 return greetingModel;
             }
             return greetingModel;
+        }
+        public List<GreetingEntity> messageListBL() {
+            return greetingRL.messageListRL();
         }
 
     }

@@ -17,5 +17,6 @@ namespace RepositoryLayer.Interface
         public bool MessageAddRL(GreetingModel greetingModel);
 
         public GreetingEntity FindMessageRL(RequestMessageId requestMessageId);
+        public List<GreetingEntity> messageListRL();
     }
 }
